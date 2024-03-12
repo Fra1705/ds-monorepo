@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '8.1.2',
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: 'react-library'
+0 silly argv }
+1 notice cli v8.1.2
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath /Users/francescogian/bitmama/ds-test/ds-monorepo
+4 error Error: Command failed with exit code 1: git config --get user.email
+4 error     at makeError (/Users/francescogian/bitmama/ds-test/ds-monorepo/node_modules/execa/lib/error.js:59:11)
+4 error     at module.exports.sync (/Users/francescogian/bitmama/ds-test/ds-monorepo/node_modules/execa/index.js:186:17)
+4 error     at execSync (/Users/francescogian/bitmama/ds-test/ds-monorepo/node_modules/@lerna/create/dist/command.js:74:31)
+4 error     at CreateCommand.gitConfig (/Users/francescogian/bitmama/ds-test/ds-monorepo/node_modules/@lerna/create/dist/command.js:4084:16)
+4 error     at CreateCommand.initialize (/Users/francescogian/bitmama/ds-test/ds-monorepo/node_modules/@lerna/create/dist/command.js:4018:51)

@@ -1,0 +1,28 @@
+{
+  "name": "vue-library",
+  "version": "0.0.0",
+  "description": "Vue library",
+  "author": "flyfishMT <gianfrancesco1993@libero.it>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+      "access": "public"
+  },
+  "dependencies": {
+    "stencil-library": "*"
+  }
+}
